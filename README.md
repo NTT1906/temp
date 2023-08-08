@@ -92,6 +92,21 @@ Description text here
 | WARNING: Some very long warning text here. ABC one two three. |
 | --- |
 
+
+> **Note**
+> This is a note
+:warning:
+[!NOTE]
+
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a warning
+
+> **Warning**
+> This is a warning
+
 <table>
   <td>:warning: <b>Warning:</b> Some warning text here.</td>
 </table>
