@@ -95,7 +95,9 @@ Description text here
 
 > **Note**
 > This is a note
+
 :warning:
+
 [!NOTE]
 
 > **Note**
