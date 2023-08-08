@@ -31,7 +31,7 @@ $this->scoreboard->remove($player)
 $this->scoreboard->setDisplayName($player, $newDisplayName);
 ```
 > **Important**
-These following instructions won't immediately show the changed line to player, they are required to send this code to get it to show to player!<br>
+These following instructions won't immediately show the changed line to player, they are required to send this code to get it shown to player!<br>
 ```php
 $this->scoreboard->update($player)
 ```
