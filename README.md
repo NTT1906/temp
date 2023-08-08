@@ -114,7 +114,7 @@ Description text here
 </table>
 
 > **Important**
-This following line won't immediately show the line to player, they required player to send this code to get it show to player!<br>
+These following instructions won't immediately show the changed line to player, they require player to send this code to get it to show to player!<br>
 ```php
 $this->scoreboard->update($player)
 ```
