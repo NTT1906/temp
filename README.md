@@ -4,6 +4,10 @@ Your note text here
 > **Warning**
 Your warning text here
 
+
+> **Important**
+Your important text here
+
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
 
