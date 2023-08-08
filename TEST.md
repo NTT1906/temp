@@ -34,7 +34,7 @@ $this->scoreboard->setDisplayName($player, $newDisplayName);
 ```
 ## 2. Lines
 > **Important**
-These following instructions won't immediately show the changed line to player, they are required to send this code after the changes in requirement to get it shown to player!<br>
+These following instructions won't immediately show the changed line to player, they are required to send this code after the changes as the requirement to get it shown to player!<br>
 ```php
 $this->scoreboard->update($player)
 ```
@@ -72,7 +72,7 @@ Example:
 $this->scoreboard->removeLine($player, 1); //Remove line 1 and leave behind an empty line
 $this->scoreboard->removeLine($player, 0); //Remove line 0 without leave behind an empty line
 ```
-
+> **Note**
 You can also be able to do something like this:
 ```php
 $this->scoreboard->create($player, "board", "My board")
