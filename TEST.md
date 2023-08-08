@@ -38,7 +38,7 @@ These following instructions won't immediately show the changed line to player, 
 ```php
 $this->scoreboard->update($player)
 ```
-### Set scoreboard line
+### 2.1 Set scoreboard line
 ```php
 /** @var int $line Line number, range from 0 to 15*/
 /** @var string $context Context of the line*/
@@ -61,7 +61,7 @@ Example:
 $this->scoreboard->floodLine($player, 0, 3, "hello"); // Flood from line 0 to line 3 with "hello"
 $this->scoreboard->floodLine($player, 4, 14); // Flood from line 4 to line 14 with empty line
 ```
-### Remove a line
+### 2.2 Remove a line
 ```php
 /** @var bool $brutal The removal will remove the line without putting an empty line if
 this is true, default: fault */
@@ -72,8 +72,9 @@ Example:
 $this->scoreboard->removeLine($player, 1); //Remove line 1 and leave behind an empty line
 $this->scoreboard->removeLine($player, 0); //Remove line 0 without leave behind an empty line
 ```
+### 2.3 Fluent code style
 > **Note**
-You can also be able to do something like this:
+All the above instructions can be written as this
 ```php
 $this->scoreboard->create($player, "board", "My board")
     ->setLine($player, 0, "line 0")
@@ -82,7 +83,7 @@ $this->scoreboard->create($player, "board", "My board")
     ->removeLine($player, 9)
     ->update($player);
 ```
-### Other functions
+## 3. Other functions
 
 ```php
 Scoreboard::getObjectiveName(Player $player); // Return the current scoreboard's name of a player
