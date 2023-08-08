@@ -113,3 +113,8 @@ Description text here
   <td>:warning: <b>Warning:</b> Some warning text here.</td>
 </table>
 
+> **Important**
+This following line won't immediately show the line to player, they required player to send this code to get it show to player!<br>
+```php
+$this->scoreboard->update($player)
+```
