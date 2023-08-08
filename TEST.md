@@ -1,6 +1,6 @@
 # libscoreboard
 libscoreboard
-## Use in plugin
+## Docs
 ```php
 use galaxygames\scoreboard\Scoreboard;
 ...
@@ -21,13 +21,17 @@ class EgPlugin extends PluginBase{
  */
 $this->scoreboard->create($player, $objectiveName, $displayName)
 ```
+### Remove scoreboard
+```php
+$this->scoreboard->remove($player)
+```
 ### Change display name
 ```php
 /** @var string $newDisplayName */
 $this->scoreboard->setDisplayName($player, $newDisplayName);
 ```
 > **Important**
-These following instructions won't immediately show the changed line to player, they require player to send this code to get it to show to player!<br>
+These following instructions won't immediately show the changed line to player, they are required to send this code to get it to show to player!<br>
 ```php
 $this->scoreboard->update($player)
 ```
@@ -69,10 +73,17 @@ $this->scoreboard->removeLine($player, 0); //Remove line 0 without leave behind 
 
 You can also be able to do something like this:
 ```php
-$this->scoreboard->create($player, $objectiveName, $displayName)
+$this->scoreboard->create($player, "board", "My board")
     ->setLine($player, 0, "line 0")
     ->floodLine($player, 1, 12)
     ->setLine($player, 13, "line 13")
     ->removeLine($player, 9)
     ->update($player);
+```
+### Other functions
+
+```php
+Scoreboard::getObjectiveName(Player $player); // Return the current scoreboard's name of a player
+Scoreboard::clearPlayerCache(Player $player); // This should be called when player left the server
+Scoreboard::clearCache();
 ```
