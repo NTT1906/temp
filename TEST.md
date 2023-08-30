@@ -1,3 +1,10 @@
+<a href="minecraft://link">
+  Minecraft
+  <img height="11em" src="https://github.com/NTT1906/temp/assets/54394881/ede66e0d-5f26-4cfd-95cf-12ea14d4338b"/>
+</a><br>
+
+
+
 ![open store](ms-windows-store://pdp/?ProductId=9nblggh2jhxj)
 
 [Duck Duck Go](https://duckduckgo.com)
