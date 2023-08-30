@@ -1,7 +1,9 @@
-<a href="minecraft://link" src="minecraft://">
+<a href="minecraft:ar.com">
   Minecraft
   <img height="11em" src="https://github.com/NTT1906/temp/assets/54394881/ede66e0d-5f26-4cfd-95cf-12ea14d4338b"/>
 </a><br>
+
+<a href="minecraft:nttispay@gmail.com">nttispay@gmail.com</a>
 
 ![open store](ms-windows-store://pdp/?ProductId=9nblggh2jhxj)
 
