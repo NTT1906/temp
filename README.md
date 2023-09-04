@@ -1,4 +1,4 @@
-[funny](https://drive.google.com/drive/folders/1lb_RcZcRo9c33_tk7TSLKA4GqzHwA8KG?usp=sharing)
+
 
 > **Note**
 Your note text here
