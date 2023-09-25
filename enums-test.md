@@ -155,4 +155,5 @@ Source: [Microsoft Creator](https://learn.microsoft.com/en-us/minecraft/creator/
 | `minecraft:armor_stand`            | `armor_stand`            | Armor Stand            |
 | `minecraft:fireworks_rocket`       | `fireworks_rocket`       | Fireworks Rocket       |
 | `minecraft:npc`                    | `npc`                    | NPC                    |
+
 </details>
