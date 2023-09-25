@@ -48,8 +48,11 @@ Show all online players
 Name: `EntityType`<br>
 Supported: No<br>
 Source: [Microsoft Creator](https://learn.microsoft.com/en-us/minecraft/creator/commands/enums/entitytype)
+
 > **Important**
-> The list of entities may change rapidly due to game updates. The following table should not be used for application purposes, but rather as a temporary reference.
+> ❗The list of entities may change rapidly due to game updates. The following table should not be used for application purposes, but rather as a temporary reference.
+
+<details> <summary>Show table</summary>
 
 | Name                               | Aliases                  | Value                  |
 |------------------------------------|--------------------------|------------------------|
@@ -152,3 +155,4 @@ Source: [Microsoft Creator](https://learn.microsoft.com/en-us/minecraft/creator/
 | `minecraft:armor_stand`            | `armor_stand`            | Armor Stand            |
 | `minecraft:fireworks_rocket`       | `fireworks_rocket`       | Fireworks Rocket       |
 | `minecraft:npc`                    | `npc`                    | NPC                    |
+</details>
